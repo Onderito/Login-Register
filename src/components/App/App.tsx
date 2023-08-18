@@ -7,7 +7,7 @@ import './App.scss';
 function App() {
   const [currentForm, setCurrentForm] = useState('login');
 
-  const toggleForm = (formName) => {
+  const toggleForm = ({ formName }: { formName: any }) => {
     setCurrentForm(formName);
   };
 
