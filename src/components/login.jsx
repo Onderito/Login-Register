@@ -44,7 +44,7 @@ function Login(props) {
         className="link-btn"
         onClick={() => props.onFormSwitch('register')}
       >
-        Already have an account ? Register here!
+        You do not have an account ? Register here!
       </button>
     </div>
   );

@@ -51,7 +51,7 @@ function Register(props) {
           id="password"
           name="password"
         />
-        <button type="sumbit">Log in</button>
+        <button type="sumbit">Register</button>
       </form>
       <button className="link-btn" onClick={() => props.onFormSwitch('login')}>
         Already have an account ? Login here!
